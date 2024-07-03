@@ -14,6 +14,7 @@ class chat extends StatelessWidget {
       title: 'Chatting app',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: const LoginSignupScreen(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
